@@ -24,9 +24,9 @@ public class OrderDaoI implements OrderDao {
     private String SELECT_ALL_QUERY = "SELECT * FROM `order`";
 
     public OrderDaoI() {
-    	String url = "jdbc:mysql://localhost:3306/tapfoods";
-        String username = "root";
-        String password = "root";
+    	String url = "jdbc:mysql://localhost:3306/your_database_name";
+        String username = your_username;
+        String password = your_password;
 
         try {
         	Class.forName("com.mysql.cj.jdbc.Driver");
