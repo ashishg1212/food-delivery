@@ -15,9 +15,9 @@ public class OrderHistoryDaoI implements OrderHistoryDao {
     private Connection con;
 
     public OrderHistoryDaoI() {
-    	String url = "jdbc:mysql://localhost:3306/tapfoods";
-        String username = "root";
-        String password = "root";
+    	String url = "jdbc:mysql://localhost:3306/your_database_name";
+        String username = your_username;
+        String password = your_password;
 
         try {
         	Class.forName("com.mysql.cj.jdbc.Driver");
